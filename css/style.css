@@ -1,0 +1,127 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+html{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font-size: 1rem;
+}
+
+.container{
+    min-width: 700px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+img{
+    display:block;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 30px 0 30px;
+    font-family: 'Courgette', cursive;
+}
+
+nav ul li a{
+    color: #49C3B4;
+}
+
+.sectionJumbo{
+    position: relative;
+}
+
+.jumboText{
+    background-color: #49C3B4;
+    opacity: 0.75;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    padding: 15px;
+}
+
+.sectionJumbo img{
+    width: 100%;
+}
+
+.sectionPromotion{
+    background-color: #49C3B4;
+    text-align: center;
+    color: white;
+}
+
+.sectionPromotion h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionAbout{
+    padding: 20px;
+}
+
+.sectionDetails{
+    background-color: #B7B12E;
+    text-align:center;
+    padding: 15px;
+}
+
+.details{
+    color: white;
+    width: 25%;
+    margin: 0 3% 0 3%;
+    display: inline-block;
+}
+
+.detailsImg{
+    width: 100%;
+}
+
+.sectionMap{
+    background-color: orange;
+}
+
+footer{
+    background-color: #49C3B4;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Courgette', cursive;
+    margin: 0;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Courgette', cursive;
+    margin: 0;
+    padding: 15px 0 15px 0;
+}
+
+h3{
+    font-family: 'Courgette', cursive;
+}
+
+.allCaps{
+    text-transform: uppercase;
+}
