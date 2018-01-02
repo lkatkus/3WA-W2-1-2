@@ -44,6 +44,10 @@ nav ul li a{
     color: #49C3B4;
 }
 
+nav ul li a:hover{
+    color: #1d4e48;
+}
+
 .sectionJumbo{
     position: relative;
 }
@@ -55,7 +59,8 @@ nav ul li a{
     color: white;
     position: absolute;
     width: 100%;
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
     padding: 15px;
 }
 
