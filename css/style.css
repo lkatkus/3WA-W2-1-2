@@ -118,6 +118,17 @@ nav ul li a:hover{
     width: 100%;
 }
 
+.sectionCalendar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sectionContact{
+    padding: 15px 0 30px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
 footer{
     background-color: #49C3B4;
     text-align: center;
@@ -125,23 +136,106 @@ footer{
     padding: 15px;
 }
 
+
+h1, h2, h3, h4{
+    font-family: 'Courgette', cursive;
+}
+
 h1{
     font-size: 3rem;
-    font-family: 'Courgette', cursive;
     margin: 0;
 }
 
 h2{
     font-size: 2rem;
-    font-family: 'Courgette', cursive;
     margin: 0;
     padding: 15px 0 15px 0;
 }
 
 h3{
-    font-family: 'Courgette', cursive;
+    margin-left: 1em;
 }
 
 .allCaps{
     text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.calendarTable th{
+     background-color: #49C3B4;
+     color: white;
+     text-align: left;
+     border: 1px solid #d3d3d3;
+}
+
+.calendarTable tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+.calendarTable td{
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+}
+
+.calendarTable td:first-child{
+    text-align: left;
+}
+
+td{
+    padding: 5px;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #49C3B4;
+    outline: none;
+    padding: 5px;
+}
+
+form ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+
+input::placeholder{
+    color: #49C3B4;
+}
+
+select{
+    width: 100%;
+    border: 1px solid #49C3B4;
+    color: #49C3B4;
+    background-color: white;
+}
+
+select:focus{
+    color:black;
+}
+
+button{
+    background-color: #49C3B4;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    color: white;
 }
