@@ -34,6 +34,13 @@ a{
     text-decoration: none;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
 nav ul{
     text-align: center;
     margin: 0;
@@ -90,6 +97,10 @@ nav ul li a:hover{
     padding: 30px;
 }
 
+.sectionAbout p{
+    margin: 0 0 10px 0;
+}
+
 .sectionDetails{
     background-color: #B7B12E;
     text-align:center;
@@ -105,10 +116,6 @@ nav ul li a:hover{
 
 .detailsImg{
     width: 100%;
-}
-
-.sectionMap{
-    background-color: orange;
 }
 
 footer{
