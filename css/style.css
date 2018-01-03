@@ -114,6 +114,40 @@ nav ul li a:hover{
     display: inline-block;
 }
 
+.containerImg{
+    position: relative;
+}
+
+.containerImg:hover .overlay{
+    opacity: 1;
+}
+
+/*.containerImg:hover .overlay:after {
+    content:"Read More"
+}*/
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+  background-color: rgba(73, 195, 180, 0.5);
+  border-radius: 50%;
+}
+
+.overlayText{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 .detailsImg{
     width: 100%;
 }
@@ -215,6 +249,10 @@ form ul li{
     display: inline-block;
     list-style-type: none;
     padding: 0 10px 0 10px;
+}
+
+label{
+    padding-left: 5px;
 }
 
 input::placeholder{

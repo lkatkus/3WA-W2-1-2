@@ -77,7 +77,7 @@
             <section class="sectionContact">
                 <h3 class="text-center">Confirm your reservation by filling out the form bellow:</h3>
 
-                <form class="" action="index.html" method="get">
+                <form action="index.html" method="POST">
                     <table class="formTable">
                             <tr>
                                 <td><input type="text" name="userName" value="" placeholder="Your First Name"></td>
@@ -90,15 +90,15 @@
 
                     <h4>Do you need some equipment?</h4>
                     <ul>
-                        <li><input type="checkbox" name="mat" value="">I need a yoga mat</input></li>
-                        <li><input type="checkbox" name="bottle" value="">I need a water bottle</input></li>
-                        <li><input type="checkbox" name="help" value="">I need something else</input></li>
+                        <li><input type="checkbox" name="mat" value=""><label>I need a yoga mat</label></input></li>
+                        <li><input type="checkbox" name="bottle" value=""><label>I need a water bottle</label></input></li>
+                        <li><input type="checkbox" name="help" value=""><label>I need something else</label></input></li>
                     </ul>
 
                     <h4>Do you have previous experience in yoga?</h4>
                     <ul>
-                        <li><input type="radio" name="userExperience" value="true">Yes</input></li>
-                        <li><input type="radio" name="userExperience" value="false">No</input></li>
+                        <li><input type="radio" name="userExperience" value="true"><label>Yes</label></input></li>
+                        <li><input type="radio" name="userExperience" value="false"><label>No</label></input></li>
                     </ul>
 
                     <h4>Were will you board our Omnibus?</h4>
